@@ -1,0 +1,22 @@
+scenario,variant,score,threshold,flag,reasoning
+Scenario 1 - polite disagreement,A_base,0.04885777831077576,0.85,0,
+Scenario 1 - polite disagreement,B_social,0.03358950465917587,0.85,0,
+Scenario 1 - polite disagreement,C_cot,0.00014770770212635398,0.15,0,"- Speaker 1 expresses agreement with the article's stance on risks.
+- Speaker 2 acknowledges that while they agree with the article, the 2023 data supports their view.
+- The dialogue appears to be discussing supporting evidence rather than escalating into a heated argument."
+Scenario 1 - polite disagreement,D_social_cot,6.552278500748798e-05,0.95,0,"Speaker 2 acknowledges the fairness of Speaker 1's view by referencing recent data, which suggests they are not directly attacking Speaker 1 personally but rather addressing their argument with evidence."
+Scenario 1 - polite disagreement,E_fewshot_cot,6.866656804049853e-06,0.8,0,"Speaker 2 acknowledges the fairness of the previous statement and provides additional context ('Fair point, though the 2023 data does support it'). This maintains the focus on the topic without escalating into personal attacks or becoming overly emotional. Therefore, the conversation is unlikely to derail."
+Scenario 2 - escalating tension,A_base,0.8840392827987671,0.85,1,
+Scenario 2 - escalating tension,B_social,0.9481545686721802,0.85,1,
+Scenario 2 - escalating tension,C_cot,0.8786607980728149,0.15,1,"- Speaker 1 questions if the other person read the source.
+- Speaker 2 responds with ""Yes"" but implies disagreement through sarcasm (""Unlike you apparently"").
+- Speaker 1 then uses another sarcastic response (""Wow. Typical"")."
+Scenario 2 - escalating tension,D_social_cot,0.9986794590950012,0.95,1,"Speaker 1 accuses Speaker 2 of not reading the source, which is a personal attack. This sets up potential conflict without addressing the actual content of what was read."
+Scenario 2 - escalating tension,E_fewshot_cot,0.9999761581420898,0.8,1,"Speaker 1 accuses Speaker 2 of not reading the source, which is a personal attack. Speaker 2 responds with ""Yes, unlike you apparently,"" indicating they disagree with Speaker 1's interpretation of the source. The tone becomes confrontational and accusatory, raising the risk of a personal attack."
+Crash test - sarcasm / friendly banter,A_base,0.1561049073934555,0.85,0,
+Crash test - sarcasm / friendly banter,B_social,0.3486451506614685,0.85,0,
+Crash test - sarcasm / friendly banter,C_cot,9.816996316658333e-05,0.15,0,"- Speaker 1 compliments Speaker 2's work.
+- Speaker 2 acknowledges their mistake but promises to fix it soon.
+- The conversation remains professional and focused on constructive feedback."
+Crash test - sarcasm / friendly banter,D_social_cot,3.887846469297074e-05,0.95,0,The conversation has already started with a playful teasing exchange between two people who seem to be friends. There's no indication of any hostile language or sarcasm directed at either party.
+Crash test - sarcasm / friendly banter,E_fewshot_cot,0.9998160004615784,0.8,1,"Speaker 1 uses a sarcastic tone (""absolute genius"") and calls Speaker 2 ""guilty"" after they admit breaking something. This indicates a personal attack. Speaker 2 responds with humor (""Haha guilty""), suggesting they find the situation amusing. While there is some light-hearted banter, the underlying tone is critical and dismissive, leading to potential escalation."

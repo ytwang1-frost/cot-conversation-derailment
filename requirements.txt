@@ -1,0 +1,10 @@
+# Run on Google Colab (T4 GPU). Versions were not pinned during the original run.
+convokit
+torch
+transformers
+accelerate
+scikit-learn
+scipy
+pandas
+numpy
+tqdm

@@ -1,0 +1,26 @@
+[
+ {
+  "conv_id": "e7rrl4u",
+  "label": 1,
+  "context": "Speaker 1: Are you really open to changing your mind, because you sound downright hostile?\nSpeaker 2: Excuse me if i sound hostile, I didn't mean it... I do get angry talking about this because I feel so strongly. I don't think anything anyone in the world can say anything to change my mind on here but hence the reason I posted it .... here in change my view. Keyword: think",
+  "rationale": "Speaker 1 opens with an accusatory 'you' question about Speaker 2's attitude rather than the argument: 'you sound downright hostile'. Speaker 2 apologises but admits 'I do get angry' and says nothing anyone can say will change their mind. The tension is now personal and there is no common ground, so the next comment is likely to turn into an attack."
+ },
+ {
+  "conv_id": "dv17vh9",
+  "label": 0,
+  "context": "Speaker 1: Almost everyone is a fragile snowflake about certain topics. I don’t think it’s unique to liberals or conservatives.\nSpeaker 2: No, but prebanning seems to be unique to conservative subs. Can you show me a liberal subreddit that won't even allow you to comment?\nSpeaker 3: /r/hillaryforpresident was the first one that comes to mind.",
+  "rationale": "The exchange stays on the topic, not the people. 'Fragile snowflake' is aimed at people in general, not at the other speaker, and is softened by 'I don't think'. Speaker 2 asks a genuine question ('Can you show me a liberal subreddit...'), and Speaker 3 simply answers it with an example. There is no sarcasm or personal criticism, so the risk is low."
+ },
+ {
+  "conv_id": "dtou1pj",
+  "label": 0,
+  "context": "Speaker 1: What if you don't believe eating other things is wrong an the only reason you would not eat a human is because of the risk of prions. You would still believe in human rights, be willing to eat animals and be consistent. Or you could view plats as just as alive as animals.\nSpeaker 2: Not eating humans because of risk of consequences is not belief in human rights.",
+  "rationale": "Both speakers argue about ideas: Speaker 1 offers a hypothetical ('What if...'), and Speaker 2 disagrees with the premise, not with the person. There are no insults, no sarcasm and no accusatory 'you' statements, and the tension does not rise between turns. This is strong disagreement, which alone is not a personal attack."
+ },
+ {
+  "conv_id": "e770svk",
+  "label": 1,
+  "context": "Speaker 1: I'd agree with you on marijuana, but not on psilocybin. Too much can fuck you up for life. You might not die, but you'll never be the same person, and not in a good way.\nSpeaker 2: In a very good way actually. Give it a try.\nSpeaker 1: Not if you over do it\nSpeaker 2: Anything is bad if you overdo it.\nSpeaker 1: Not as bad as Psilocybin",
+  "rationale": "The replies get shorter and more curt with each turn ('Not if you over do it', 'Not as bad as Psilocybin'), a sign of rising tension. Speaker 2 brushes off a warning with 'Give it a try', and neither speaker acknowledges the other's point. They are repeating their positions instead of engaging, so the exchange is likely to turn personal."
+ }
+]
