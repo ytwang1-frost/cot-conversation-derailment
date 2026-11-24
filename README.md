@@ -94,7 +94,7 @@ This gives every variant a continuous score, so all of them are evaluated the sa
 3. **CoT makes scores extreme** (most near 0 or 1), which pushes the chosen thresholds to 0.15–0.95 and reduces how much the ranking can say.
 4. **Few-shot examples made the model over-sensitive.** E has the most false positives on the test set and was the only variant to flag the sarcasm crash test.
 5. **Small samples mislead.** On the 100-conversation check, C had the best AUC and E the worst; on the full test set it was the other way round.
-6. **The reasoning is often unfaithful.** It summarises who said what instead of judging the signals, mixes up speakers, and invents details (see below). Even when given the correct answer, the model invented details in two of four example rationales.
+6. **The reasoning is often unfaithful.** It summarises who said what instead of judging the signals, mixes up speakers, and invents details (see below). Even when given the correct answer, the model invented details in two of four example rationales. This matches earlier evidence that CoT explanations can be unfaithful (Turpin et al., 2023).
 
 ### Scenario tests and crash test
 
@@ -183,6 +183,7 @@ The assistant ranks threads by risk and flags those above the threshold; the CoT
 - Chang, J. P., & Danescu-Niculescu-Mizil, C. (2019). Trouble on the Horizon: Forecasting the Derailment of Online Conversations as they Develop. *EMNLP*.
 - Kojima, T., et al. (2022). Large Language Models are Zero-Shot Reasoners. *NeurIPS*.
 - Qwen Team (2024). Qwen2.5 Technical Report. arXiv:2412.15115.
+- Turpin, M., Michael, J., Perez, E., & Bowman, S. R. (2023). Language Models Don't Always Say What They Think: Unfaithful Explanations in Chain-of-Thought Prompting. *NeurIPS*.
 - Wei, J., et al. (2022). Chain-of-Thought Prompting Elicits Reasoning in Large Language Models. *NeurIPS*.
 - Zelikman, E., et al. (2022). STaR: Bootstrapping Reasoning With Reasoning. *NeurIPS*.
 - Zhang, J., et al. (2018). Conversations Gone Awry: Detecting Early Signs of Conversational Failure. *ACL*.
